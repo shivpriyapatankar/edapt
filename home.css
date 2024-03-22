@@ -1,0 +1,28 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff; 
+  padding: 10px;
+}
+
+
+nav a {
+  color: #303030; 
+  text-decoration: none; 
+  margin-right: 10px;
+  transition: color 0.2s;
+}
+nav  a :hover {
+  color: #2fe389; 
+  text-decoration: underline;
+
+}
+header {
+ margin-left: 20px;
+ text-align: center;
+}
+
+
+
+

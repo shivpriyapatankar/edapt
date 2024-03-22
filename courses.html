@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Simple Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav style="display: flex; align-items: center;">
+
+    <a href="index.html"><img src="Images/card/logo.jpg" alt="Logo" style="height: 50px; margin-right: 10px;"></a>
+    <page class="page">
+      
+      <a href="courses.html">Courses</a>
+      <a href="#about">About Us</a>
+      <a href="#contact">Contact</a>
+    </page>
+  </nav>
+  <div class="container text-center">
+    <div class="row row-cols-4">
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="4.jpg" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Basics Of C++ Programming</h5>
+            <p class="card-text"></p>Complete C++ Tutorial in One Shot 2023 | Notes.</p>
+            <a href="https://youtu.be/e7sAf4SbS_g?si=bFJL6ba53HU955r0" class="btn btn-primary">View Video</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">JavaScript </h5>
+            <p class="card-text">JavaScript Tutorial (2024) for Beginners to Pro (with Notes, Projects & Practice Questions)</p>
+            <a href="https://youtu.be/VlPiVmYuoqw?si=zM_QwF4o_SF7_Um-" class="btn btn-primary">View Video</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Python</h5>
+            <p class="card-text">Python Tutorial for Beginners - Full Course (with Notes & Practice Questions)</p>
+            <a href="https://youtu.be/ERCMXc8x7mc?si=tNHSmMUf6c4oYpwd" class="btn btn-primary">View Video</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">SQL</h5>
+            <p class="card-text">SQL - Complete Course in 3 Hours | SQL One Shot using MySQL</p>
+            <a href="https://youtu.be/hlGoQC332VM?si=qojDfw4XwGUHwdCW" class="btn btn-primary">View Video</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card">
+        <img src="5.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">DBMS</h5>
+          <p class="card-text">Complete DBMS in 1 Video (With Notes) || For Placement Interviews</p>
+          <a href="https://youtu.be/dl00fOOYLOM?si=FjseJRyyaZjK6Fhv" class="btn btn-primary">View Video</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card">
+      <img src="6.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Web Development</h5>
+        <p class="card-text">Full Stack Web Development for Beginners (Full Course on HTML, CSS, JavaScript, Node.js, MongoDB)</p>
+        <a href="https://youtu.be/nu_pCVPKzTk?si=yrxctgiSDd-RZ_Lg" class="btn btn-primary">View Video</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="col">
+  <div class="card">
+    <img src="7.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Game Development</h5>
+      <p class="card-text">FREE GAME DEVELOPMENT (Full Course) | Beginner to Advance - Unity 3D</p>
+      <a href="https://youtu.be/gVDdOucyZrk?si=_uSKKbPbQVE0pOkS" class="btn btn-primary">View Video</a>
+    </div>
+  </div>
+</div>
+</div>
+    <style>
+      .container {
+        padding: 2%;
+        }
+      
+      .row{
+        display: flex;
+        justify-content: space-between;
+      }
+    
+      .card {
+        width: 100% !important;
+      }
+    </style>
+  </section>
+  
+
+    </style>
+    <style>
+      .col > .card {
+  width: 18rem;
+}
+
+.card-img-top {
+  height: 18rem;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.card-title {
+  margin-top: 0;
+  margin-bottom: 0.25rem;
+}
+
+.card-text {
+  margin-top: 0.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.btn-primary {
+  font-size: 0.875rem;
+  border-radius: 0.25rem;
+  padding: 0.375rem 0.75rem;
+}
+        .container {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.row-cols-4 {
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.col {
+  flex: 1 0 0%;
+  max-width: 25%;
+  padding: 0 15px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  width: 18rem;
+}
+
+.card-img-top {
+  height: 10vw;
+  object-fit: cover;
+}
+
+.card-body {
+  flex: 1 0 auto;
+  padding: 1rem;
+}
+
+.card-title {
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+    </style>
+</body>
+</html>
